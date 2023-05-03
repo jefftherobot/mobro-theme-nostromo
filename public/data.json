@@ -1,0 +1,5243 @@
+{
+	"timestamp": "2023-05-03T11:50:47.8843404Z",
+	"includedhardwaretypes": [
+		"Processor",
+		"Memory",
+		"Graphics",
+		"Mainboard",
+		"Storage",
+		"Network",
+		"Misc"
+	],
+	"includedsensortypes": {
+		"processor": [
+			"Usage",
+			"Voltage",
+			"Clock",
+			"Multiplier",
+			"Temperature",
+			"Misc",
+			"Power"
+		],
+		"memory": [
+			"Usage",
+			"Data",
+			"Clock",
+			"Multiplier",
+			"Misc"
+		],
+		"graphics": [
+			"Temperature",
+			"Clock",
+			"Usage",
+			"Fan",
+			"Data",
+			"Power",
+			"Bitrate",
+			"Voltage",
+			"Misc"
+		],
+		"mainboard": [
+			"Temperature",
+			"Voltage",
+			"Current",
+			"Power"
+		],
+		"storage": [
+			"Usage",
+			"Temperature",
+			"Data",
+			"Bitrate",
+			"Misc"
+		],
+		"network": [
+			"Data",
+			"Bitrate",
+			"Usage"
+		],
+		"misc": [
+			"Temperature",
+			"Voltage",
+			"Power",
+			"Misc",
+			"Fan",
+			"Current"
+		]
+	},
+	"monitordata": {
+		"openhardwaremonitor": {
+			"timestamp": "2023-05-03T11:50:47.9429468Z",
+			"source": "OpenHardwareMonitor",
+			"includedhardwaretypes": [
+				"Processor",
+				"Memory",
+				"Graphics",
+				"Mainboard",
+				"Storage"
+			],
+			"includedsensortypes": {
+				"processor": [
+					"Usage"
+				],
+				"memory": [
+					"Usage",
+					"Data"
+				],
+				"graphics": [
+					"Temperature",
+					"Clock",
+					"Usage",
+					"Fan",
+					"Data",
+					"Power",
+					"Bitrate"
+				],
+				"mainboard": [],
+				"storage": [
+					"Usage"
+				]
+			},
+			"data": [
+				{
+					"hardwaretype": "Processor",
+					"title": "13th Gen Intel Core i7-13700KF",
+					"id": "/intelcpu/0",
+					"sensors": [
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/1",
+							"label": "CPU Core #1",
+							"value": 2.67857313,
+							"min": 0.0,
+							"max": 50.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/2",
+							"label": "CPU Core #2",
+							"value": 1.78571343,
+							"min": 0.0,
+							"max": 26.1538448,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/3",
+							"label": "CPU Core #3",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 25.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/4",
+							"label": "CPU Core #4",
+							"value": 12.2963667,
+							"min": 0.0,
+							"max": 13.1971121,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/5",
+							"label": "CPU Core #5",
+							"value": 8.035713,
+							"min": 0.0,
+							"max": 50.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/6",
+							"label": "CPU Core #6",
+							"value": 7.14285374,
+							"min": 2.30768919,
+							"max": 44.6153831,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/7",
+							"label": "CPU Core #7",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 25.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/8",
+							"label": "CPU Core #8",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 13.9423075,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/0",
+							"label": "CPU Total",
+							"value": 3.99240851,
+							"min": 0.87890625,
+							"max": 25.0,
+							"avg": null
+						}
+					]
+				},
+				{
+					"hardwaretype": "Memory",
+					"title": "Generic Memory",
+					"id": "/ram",
+					"sensors": [
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/ram/load/0",
+							"label": "Memory",
+							"value": 13.675087,
+							"min": 12.8454208,
+							"max": 14.1503677,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/ram/data/0",
+							"label": "Used Memory",
+							"value": 4.35396576,
+							"min": 4.08980942,
+							"max": 4.505287,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/ram/data/1",
+							"label": "Available Memory",
+							"value": 27.4846916,
+							"min": 27.33337,
+							"max": 27.748848,
+							"avg": null
+						}
+					]
+				},
+				{
+					"hardwaretype": "Graphics",
+					"title": "NVIDIA NVIDIA GeForce RTX 4090",
+					"id": "/nvidiagpu/0",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "/nvidiagpu/0/temperature/0",
+							"label": "GPU Core",
+							"value": 20.0,
+							"min": 20.0,
+							"max": 22.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "/nvidiagpu/0/clock/0",
+							"label": "GPU Core",
+							"value": 210.000015,
+							"min": 210.000015,
+							"max": 2520.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "/nvidiagpu/0/clock/1",
+							"label": "GPU Memory",
+							"value": 405.000031,
+							"min": 405.000031,
+							"max": 10501.9844,
+							"avg": null
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "/nvidiagpu/0/clock/2",
+							"label": "GPU Shader",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvidiagpu/0/load/0",
+							"label": "GPU Core",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 81.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvidiagpu/0/load/1",
+							"label": "GPU Frame Buffer",
+							"value": 29.0,
+							"min": 1.0,
+							"max": 72.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvidiagpu/0/load/2",
+							"label": "GPU Video Engine",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvidiagpu/0/load/3",
+							"label": "GPU Bus Interface",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 5.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvidiagpu/0/control/0",
+							"label": "GPU Fan",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 30.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Fan",
+							"unit": "RPM",
+							"id": "/nvidiagpu/0/fan/0",
+							"label": "GPU",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "/nvidiagpu/0/smalldata/3",
+							"label": "GPU Memory Total",
+							"value": 24564.0,
+							"min": 24564.0,
+							"max": 24564.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "/nvidiagpu/0/smalldata/2",
+							"label": "GPU Memory Used",
+							"value": 1210.63281,
+							"min": 989.8086,
+							"max": 1226.60156,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "/nvidiagpu/0/smalldata/1",
+							"label": "GPU Memory Free",
+							"value": 23353.3672,
+							"min": 23337.3984,
+							"max": 23574.1914,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvidiagpu/0/load/4",
+							"label": "GPU Memory",
+							"value": 4.928484,
+							"min": 4.029509,
+							"max": 4.9934926,
+							"avg": null
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "/nvidiagpu/0/power/0",
+							"label": "GPU Power",
+							"value": 13.078001,
+							"min": 12.5870008,
+							"max": 60.5680046,
+							"avg": null
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "B/s",
+							"id": "/nvidiagpu/0/throughput/0",
+							"label": "GPU PCIE Rx",
+							"value": 5.859375,
+							"min": 0.0,
+							"max": 229.492188,
+							"avg": null
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "B/s",
+							"id": "/nvidiagpu/0/throughput/1",
+							"label": "GPU PCIE Tx",
+							"value": 1.953125,
+							"min": 0.0,
+							"max": 37.109375,
+							"avg": null
+						}
+					]
+				},
+				{
+					"hardwaretype": "Mainboard",
+					"title": "Z690 DARK KINGPIN",
+					"id": "/mainboard",
+					"sensors": []
+				},
+				{
+					"hardwaretype": "Storage",
+					"title": "Generic Hard Disk",
+					"id": "/hdd/0",
+					"sensors": [
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/hdd/0/load/0",
+							"label": "Used Space",
+							"value": 24.285553,
+							"min": 24.2828751,
+							"max": 24.285553,
+							"avg": null
+						}
+					]
+				},
+				{
+					"hardwaretype": "Storage",
+					"title": "Generic Hard Disk",
+					"id": "/hdd/1",
+					"sensors": [
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/hdd/1/load/0",
+							"label": "Used Space",
+							"value": 4.01062775,
+							"min": 4.01062775,
+							"max": 4.01062775,
+							"avg": null
+						}
+					]
+				}
+			]
+		},
+		"librehardwaremonitor": {
+			"timestamp": "2023-05-03T11:50:48.0109905Z",
+			"source": "LibreHardwareMonitor",
+			"includedhardwaretypes": [
+				"Processor",
+				"Memory",
+				"Graphics",
+				"Mainboard",
+				"Storage",
+				"Network"
+			],
+			"includedsensortypes": {
+				"processor": [
+					"Usage"
+				],
+				"memory": [
+					"Data",
+					"Usage"
+				],
+				"graphics": [
+					"Temperature",
+					"Clock",
+					"Usage",
+					"Data",
+					"Power",
+					"Bitrate"
+				],
+				"mainboard": [],
+				"storage": [
+					"Temperature",
+					"Usage",
+					"Data",
+					"Bitrate"
+				],
+				"network": [
+					"Data",
+					"Bitrate",
+					"Usage"
+				]
+			},
+			"data": [
+				{
+					"hardwaretype": "Processor",
+					"title": "13th Gen Intel Core i7-13700KF",
+					"id": "/intelcpu/0",
+					"sensors": [
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/1",
+							"label": "CPU Core #1",
+							"value": 3.57142687,
+							"min": 0.0,
+							"max": 50.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/2",
+							"label": "CPU Core #2",
+							"value": 1.78571343,
+							"min": 0.0,
+							"max": 22.65625,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/3",
+							"label": "CPU Core #3",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 13.0398693,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/4",
+							"label": "CPU Core #4",
+							"value": 15.548027,
+							"min": 0.0,
+							"max": 15.548027,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/5",
+							"label": "CPU Core #5",
+							"value": 11.6071463,
+							"min": 0.0,
+							"max": 43.46622,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/6",
+							"label": "CPU Core #6",
+							"value": 7.14285374,
+							"min": 0.0,
+							"max": 44.6153831,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/7",
+							"label": "CPU Core #7",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 12.6116037,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/8",
+							"label": "CPU Core #8",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 10.9375,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/intelcpu/0/load/0",
+							"label": "CPU Total",
+							"value": 4.956901,
+							"min": 0.78125,
+							"max": 21.4208241,
+							"avg": null
+						}
+					]
+				},
+				{
+					"hardwaretype": "Memory",
+					"title": "Generic Memory",
+					"id": "/ram",
+					"sensors": [
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/ram/data/0",
+							"label": "Memory Used",
+							"value": 4.377388,
+							"min": 4.091259,
+							"max": 4.51473236,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/ram/data/1",
+							"label": "Memory Available",
+							"value": 27.46127,
+							"min": 27.323925,
+							"max": 27.7473984,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/ram/load/0",
+							"label": "Memory",
+							"value": 13.7486572,
+							"min": 12.8499756,
+							"max": 14.1800308,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/ram/data/2",
+							"label": "Virtual Memory Used",
+							"value": 6.593651,
+							"min": 6.044056,
+							"max": 7.096943,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/ram/data/3",
+							"label": "Virtual Memory Available",
+							"value": 39.2450066,
+							"min": 38.7417145,
+							"max": 39.7946,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/ram/load/1",
+							"label": "Virtual Memory",
+							"value": 14.3844757,
+							"min": 13.1855011,
+							"max": 15.4824448,
+							"avg": null
+						}
+					]
+				},
+				{
+					"hardwaretype": "Graphics",
+					"title": "NVIDIA NVIDIA GeForce RTX 4090",
+					"id": "/gpu-nvidia/0",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "/gpu-nvidia/0/temperature/0",
+							"label": "GPU Core",
+							"value": 20.0,
+							"min": 20.0,
+							"max": 22.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "/gpu-nvidia/0/clock/0",
+							"label": "GPU Core",
+							"value": 210.000015,
+							"min": 210.000015,
+							"max": 2520.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "/gpu-nvidia/0/clock/1",
+							"label": "GPU Memory",
+							"value": 405.000031,
+							"min": 405.000031,
+							"max": 10501.9844,
+							"avg": null
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "/gpu-nvidia/0/clock/2",
+							"label": "GPU Shader",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/gpu-nvidia/0/load/0",
+							"label": "GPU Core",
+							"value": 4.0,
+							"min": 0.0,
+							"max": 81.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/gpu-nvidia/0/load/1",
+							"label": "GPU Memory Controller",
+							"value": 26.0,
+							"min": 1.0,
+							"max": 72.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/gpu-nvidia/0/load/2",
+							"label": "GPU Video Engine",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/gpu-nvidia/0/load/4",
+							"label": "GPU Bus",
+							"value": 1.0,
+							"min": 0.0,
+							"max": 5.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/gpu-nvidia/0/control/0",
+							"label": "GPU Fan",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 30.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "/gpu-nvidia/0/smalldata/3",
+							"label": "GPU Memory Total",
+							"value": 24564.0,
+							"min": 24564.0,
+							"max": 24564.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "/gpu-nvidia/0/smalldata/2",
+							"label": "GPU Memory Used",
+							"value": 1210.63281,
+							"min": 989.6836,
+							"max": 1226.60156,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "/gpu-nvidia/0/smalldata/1",
+							"label": "GPU Memory Free",
+							"value": 23353.3672,
+							"min": 23337.3984,
+							"max": 23574.3164,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/gpu-nvidia/0/load/3",
+							"label": "GPU Memory",
+							"value": 4.928484,
+							"min": 4.02900028,
+							"max": 4.9934926,
+							"avg": null
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "/gpu-nvidia/0/power/0",
+							"label": "GPU Package",
+							"value": 13.867,
+							"min": 12.587,
+							"max": 60.569,
+							"avg": null
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "B/s",
+							"id": "/gpu-nvidia/0/throughput/0",
+							"label": "GPU PCIe Rx",
+							"value": 3.9936E+07,
+							"min": 0.0,
+							"max": 3.20512E+08,
+							"avg": null
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "B/s",
+							"id": "/gpu-nvidia/0/throughput/1",
+							"label": "GPU PCIe Tx",
+							"value": 2048000.0,
+							"min": 0.0,
+							"max": 6.0416E+07,
+							"avg": null
+						}
+					]
+				},
+				{
+					"hardwaretype": "Mainboard",
+					"title": "EVGA Z690 DARK KINGPIN",
+					"id": "/motherboard",
+					"sensors": []
+				},
+				{
+					"hardwaretype": "Storage",
+					"title": "WD_BLACK SN850X 1000GB",
+					"id": "/nvme/0",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "/nvme/0/temperature/0",
+							"label": "Temperature",
+							"value": 27.0,
+							"min": 0.0,
+							"max": 27.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/0/level/1",
+							"label": "Available Spare",
+							"value": 100.0,
+							"min": 0.0,
+							"max": 100.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/0/level/2",
+							"label": "Available Spare Threshold",
+							"value": 10.0,
+							"min": 0.0,
+							"max": 10.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/0/level/3",
+							"label": "Percentage Used",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/nvme/0/data/4",
+							"label": "Data Read",
+							"value": 1458.0,
+							"min": 0.0,
+							"max": 1458.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/nvme/0/data/5",
+							"label": "Data Written",
+							"value": 796.0,
+							"min": 0.0,
+							"max": 796.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/0/load/0",
+							"label": "Used Space",
+							"value": 24.285553,
+							"min": 24.2828751,
+							"max": 24.285553,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/0/load/32",
+							"label": "Write Activity",
+							"value": 0.0617471151,
+							"min": 0.0,
+							"max": 7.793929,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/0/load/33",
+							"label": "Total Activity",
+							"value": 1.97486758,
+							"min": 0.0,
+							"max": 100.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "B/s",
+							"id": "/nvme/0/throughput/34",
+							"label": "Read Rate",
+							"value": 59083416.0,
+							"min": 0.0,
+							"max": 340158944.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "B/s",
+							"id": "/nvme/0/throughput/35",
+							"label": "Write Rate",
+							"value": 302919.063,
+							"min": 0.0,
+							"max": 37463132.0,
+							"avg": null
+						}
+					]
+				},
+				{
+					"hardwaretype": "Storage",
+					"title": "WD_BLACK SN770 500GB",
+					"id": "/nvme/1",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "/nvme/1/temperature/0",
+							"label": "Temperature",
+							"value": 24.0,
+							"min": 0.0,
+							"max": 24.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/1/level/1",
+							"label": "Available Spare",
+							"value": 100.0,
+							"min": 0.0,
+							"max": 100.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/1/level/2",
+							"label": "Available Spare Threshold",
+							"value": 10.0,
+							"min": 0.0,
+							"max": 10.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/1/level/3",
+							"label": "Percentage Used",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/nvme/1/data/4",
+							"label": "Data Read",
+							"value": 82.0,
+							"min": 0.0,
+							"max": 82.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/nvme/1/data/5",
+							"label": "Data Written",
+							"value": 45.0,
+							"min": 0.0,
+							"max": 45.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "/nvme/1/temperature/6",
+							"label": "Temperature 1",
+							"value": 39.0,
+							"min": 0.0,
+							"max": 39.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "/nvme/1/temperature/7",
+							"label": "Temperature 2",
+							"value": 24.0,
+							"min": 0.0,
+							"max": 24.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/1/load/0",
+							"label": "Used Space",
+							"value": 4.01062775,
+							"min": 4.01062775,
+							"max": 4.01062775,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/1/load/32",
+							"label": "Write Activity",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.07973947,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nvme/1/load/33",
+							"label": "Total Activity",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 100.0,
+							"avg": null
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "B/s",
+							"id": "/nvme/1/throughput/34",
+							"label": "Read Rate",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 12212.7168,
+							"avg": null
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "B/s",
+							"id": "/nvme/1/throughput/35",
+							"label": "Write Rate",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 12230.8906,
+							"avg": null
+						}
+					]
+				},
+				{
+					"hardwaretype": "Network",
+					"title": "Ethernet 2",
+					"id": "/nic/{85FC2DCC-0693-4AF3-8317-884DC4EEB314}",
+					"sensors": [
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/nic/{85FC2DCC-0693-4AF3-8317-884DC4EEB314}/data/2",
+							"label": "Data Uploaded",
+							"value": 0.007840026,
+							"min": 0.000425303355,
+							"max": 0.007840026,
+							"avg": null
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "/nic/{85FC2DCC-0693-4AF3-8317-884DC4EEB314}/data/3",
+							"label": "Data Downloaded",
+							"value": 0.00356749818,
+							"min": 0.00284254272,
+							"max": 0.00356749818,
+							"avg": null
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "B/s",
+							"id": "/nic/{85FC2DCC-0693-4AF3-8317-884DC4EEB314}/throughput/7",
+							"label": "Upload Speed",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 3710994.75,
+							"avg": null
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "B/s",
+							"id": "/nic/{85FC2DCC-0693-4AF3-8317-884DC4EEB314}/throughput/8",
+							"label": "Download Speed",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 279128.7,
+							"avg": null
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "/nic/{85FC2DCC-0693-4AF3-8317-884DC4EEB314}/load/1",
+							"label": "Network Utilization",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 3.00090885,
+							"avg": null
+						}
+					]
+				}
+			]
+		},
+		"hwinfo": {
+			"timestamp": "2023-05-03T11:50:48.0129765Z",
+			"source": "HWiNFO",
+			"includedhardwaretypes": [
+				"Processor",
+				"Memory",
+				"Graphics",
+				"Mainboard",
+				"Storage",
+				"Network",
+				"Misc"
+			],
+			"includedsensortypes": {
+				"processor": [
+					"Voltage",
+					"Clock",
+					"Usage",
+					"Multiplier",
+					"Temperature",
+					"Misc",
+					"Power"
+				],
+				"memory": [
+					"Data",
+					"Usage",
+					"Clock",
+					"Multiplier",
+					"Misc"
+				],
+				"graphics": [
+					"Temperature",
+					"Voltage",
+					"Fan",
+					"Power",
+					"Clock",
+					"Usage",
+					"Misc",
+					"Data"
+				],
+				"mainboard": [
+					"Temperature",
+					"Voltage",
+					"Current",
+					"Power"
+				],
+				"storage": [
+					"Temperature",
+					"Usage",
+					"Misc",
+					"Data",
+					"Bitrate"
+				],
+				"network": [
+					"Data",
+					"Bitrate"
+				],
+				"misc": [
+					"Temperature",
+					"Voltage",
+					"Power",
+					"Misc",
+					"Fan",
+					"Current"
+				]
+			},
+			"data": [
+				{
+					"hardwaretype": "Processor",
+					"title": "CPU [#0]: Intel Core i7-13700KF",
+					"id": "processor/cpu[#0]:intelcorei7-13700kf",
+					"sensors": [
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "0",
+							"label": "P-core 0 VID",
+							"value": 1.295166,
+							"min": 1.23474121,
+							"max": 1.30957031,
+							"avg": 1.28126466
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "1",
+							"label": "P-core 1 VID",
+							"value": 1.27026367,
+							"min": 1.26367188,
+							"max": 1.30847168,
+							"avg": 1.28287518
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "2",
+							"label": "P-core 2 VID",
+							"value": 1.27526855,
+							"min": 1.26867676,
+							"max": 1.30847168,
+							"avg": 1.28462529
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "3",
+							"label": "P-core 3 VID",
+							"value": 1.27868652,
+							"min": 1.2677002,
+							"max": 1.30517578,
+							"avg": 1.28512537
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "4",
+							"label": "P-core 4 VID",
+							"value": 1.27856445,
+							"min": 1.26953125,
+							"max": 1.31530762,
+							"avg": 1.28374434
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "5",
+							"label": "P-core 5 VID",
+							"value": 1.286377,
+							"min": 1.269043,
+							"max": 1.30749512,
+							"avg": 1.28358555
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "6",
+							"label": "P-core 6 VID",
+							"value": 1.286377,
+							"min": 1.27392578,
+							"max": 1.31298828,
+							"avg": 1.28461063
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "7",
+							"label": "P-core 7 VID",
+							"value": 1.29138184,
+							"min": 1.27355957,
+							"max": 1.31298828,
+							"avg": 1.28723443
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "8",
+							"label": "Uncore VID",
+							"value": 1.21862793,
+							"min": 1.21618652,
+							"max": 1.24621582,
+							"avg": 1.22673011
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "9",
+							"label": "SA VID",
+							"value": 1.30126953,
+							"min": 1.30126953,
+							"max": 1.30126953,
+							"avg": 1.30126953
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "10",
+							"label": "P-core 0 Clock",
+							"value": 5300.0,
+							"min": 799.808,
+							"max": 5300.0,
+							"avg": 5135.69775
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "11",
+							"label": "P-core 1 Clock",
+							"value": 800.0,
+							"min": 799.808,
+							"max": 5300.0,
+							"avg": 4540.56934
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "12",
+							"label": "P-core 2 Clock",
+							"value": 800.0,
+							"min": 799.808,
+							"max": 5300.0,
+							"avg": 4974.265
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "13",
+							"label": "P-core 3 Clock",
+							"value": 800.0,
+							"min": 799.808,
+							"max": 5300.0,
+							"avg": 4920.061
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "14",
+							"label": "P-core 4 Clock",
+							"value": 5300.0,
+							"min": 5298.728,
+							"max": 5400.0,
+							"avg": 5304.35938
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "15",
+							"label": "P-core 5 Clock",
+							"value": 5300.0,
+							"min": 5298.728,
+							"max": 5400.0,
+							"avg": 5309.17871
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "16",
+							"label": "P-core 6 Clock",
+							"value": 800.0,
+							"min": 799.808,
+							"max": 5300.0,
+							"avg": 4106.873
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "17",
+							"label": "P-core 7 Clock",
+							"value": 5300.0,
+							"min": 799.808,
+							"max": 5300.0,
+							"avg": 4648.977
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "18",
+							"label": "Bus Clock",
+							"value": 100.0,
+							"min": 99.976,
+							"max": 100.0,
+							"avg": 99.9913254
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "19",
+							"label": "Ring/LLC Clock",
+							"value": 4500.0,
+							"min": 4498.92,
+							"max": 4800.0,
+							"avg": 4602.0127
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "20",
+							"label": "P-core 0 T0 Effective Clock",
+							"value": 240.75148,
+							"min": 114.388626,
+							"max": 2256.914,
+							"avg": 575.361938
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "21",
+							"label": "P-core 0 T1 Effective Clock",
+							"value": 3.53164721,
+							"min": 1.73518777,
+							"max": 471.511078,
+							"avg": 47.01353
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "22",
+							"label": "P-core 1 T0 Effective Clock",
+							"value": 72.92694,
+							"min": 19.7805157,
+							"max": 2793.56934,
+							"avg": 323.862762
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "23",
+							"label": "P-core 1 T1 Effective Clock",
+							"value": 2.65626717,
+							"min": 0.9525389,
+							"max": 509.865967,
+							"avg": 34.7407265
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "24",
+							"label": "P-core 2 T0 Effective Clock",
+							"value": 36.1025734,
+							"min": 7.24330568,
+							"max": 1164.45471,
+							"avg": 187.3733
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "25",
+							"label": "P-core 2 T1 Effective Clock",
+							"value": 1.4867543,
+							"min": 0.45369184,
+							"max": 546.0604,
+							"avg": 26.3375568
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "26",
+							"label": "P-core 3 T0 Effective Clock",
+							"value": 15.3277111,
+							"min": 3.92837024,
+							"max": 947.3418,
+							"avg": 120.784546
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "27",
+							"label": "P-core 3 T1 Effective Clock",
+							"value": 1.985413,
+							"min": 0.4586376,
+							"max": 734.1482,
+							"avg": 24.326067
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "28",
+							"label": "P-core 4 T0 Effective Clock",
+							"value": 458.3506,
+							"min": 131.8672,
+							"max": 3585.79883,
+							"avg": 826.775
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "29",
+							"label": "P-core 4 T1 Effective Clock",
+							"value": 205.593277,
+							"min": 60.5569,
+							"max": 3019.99023,
+							"avg": 596.5904
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "30",
+							"label": "P-core 5 T0 Effective Clock",
+							"value": 870.1278,
+							"min": 205.351944,
+							"max": 3482.92,
+							"avg": 1038.994
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "31",
+							"label": "P-core 5 T1 Effective Clock",
+							"value": 170.564987,
+							"min": 62.4968224,
+							"max": 3087.37378,
+							"avg": 511.289948
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "32",
+							"label": "P-core 6 T0 Effective Clock",
+							"value": 25.8927116,
+							"min": 12.4142227,
+							"max": 645.104248,
+							"avg": 101.552673
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "33",
+							"label": "P-core 6 T1 Effective Clock",
+							"value": 1.37443888,
+							"min": 0.209621638,
+							"max": 890.288635,
+							"avg": 30.6886311
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "34",
+							"label": "P-core 7 T0 Effective Clock",
+							"value": 9.302141,
+							"min": 4.380063,
+							"max": 654.99646,
+							"avg": 61.67547
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "35",
+							"label": "P-core 7 T1 Effective Clock",
+							"value": 0.6584863,
+							"min": 0.382251978,
+							"max": 630.750366,
+							"avg": 22.8457165
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "36",
+							"label": "Average Effective Clock",
+							"value": 132.289581,
+							"min": 80.48229,
+							"max": 1116.017,
+							"avg": 283.138275
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "37",
+							"label": "P-core 0 T0 Usage",
+							"value": 8.4,
+							"min": 2.6,
+							"max": 42.5,
+							"avg": 11.474699
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "38",
+							"label": "P-core 0 T1 Usage",
+							"value": 0.8,
+							"min": 0.0,
+							"max": 8.6,
+							"avg": 1.14096391
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "39",
+							"label": "P-core 1 T0 Usage",
+							"value": 2.7,
+							"min": 0.0,
+							"max": 52.1,
+							"avg": 6.52289152
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "40",
+							"label": "P-core 1 T1 Usage",
+							"value": 0.8,
+							"min": 0.0,
+							"max": 8.5,
+							"avg": 1.04578316
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "41",
+							"label": "P-core 2 T0 Usage",
+							"value": 0.9,
+							"min": 0.0,
+							"max": 21.1,
+							"avg": 3.89036155
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "42",
+							"label": "P-core 2 T1 Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 8.4,
+							"avg": 0.846987963
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "43",
+							"label": "P-core 3 T0 Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 18.0,
+							"avg": 2.5361445
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "44",
+							"label": "P-core 3 T1 Usage",
+							"value": 0.8,
+							"min": 0.0,
+							"max": 9.8,
+							"avg": 0.7963855
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "45",
+							"label": "P-core 4 T0 Usage",
+							"value": 14.4,
+							"min": 1.4,
+							"max": 67.5,
+							"avg": 15.9566269
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "46",
+							"label": "P-core 4 T1 Usage",
+							"value": 4.8,
+							"min": 1.2,
+							"max": 57.1,
+							"avg": 11.4831324
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "47",
+							"label": "P-core 5 T0 Usage",
+							"value": 20.9,
+							"min": 3.0,
+							"max": 65.5,
+							"avg": 20.5337353
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "48",
+							"label": "P-core 5 T1 Usage",
+							"value": 5.2,
+							"min": 0.8,
+							"max": 60.2,
+							"avg": 9.748193
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "49",
+							"label": "P-core 6 T0 Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 12.0,
+							"avg": 1.97710848
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "50",
+							"label": "P-core 6 T1 Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 10.7,
+							"avg": 0.8674699
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "51",
+							"label": "P-core 7 T0 Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 10.4,
+							"avg": 1.41927707
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "52",
+							"label": "P-core 7 T1 Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 9.7,
+							"avg": 0.7975904
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "53",
+							"label": "Max CPU/Thread Usage",
+							"value": 20.9,
+							"min": 8.0,
+							"max": 67.5,
+							"avg": 24.312048
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "54",
+							"label": "Total CPU Usage",
+							"value": 3.73125,
+							"min": 1.68125,
+							"max": 20.75,
+							"avg": 5.689834
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "55",
+							"label": "On-Demand Clock Modulation",
+							"value": 100.0,
+							"min": 100.0,
+							"max": 100.0,
+							"avg": 100.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "56",
+							"label": "P-core 0 T0 Utility",
+							"value": 6.1538167,
+							"min": 2.82730532,
+							"max": 64.50527,
+							"avg": 15.4371319
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "57",
+							"label": "P-core 0 T1 Utility",
+							"value": 0.0873649344,
+							"min": 0.0446411148,
+							"max": 13.5095778,
+							"avg": 1.30601454
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "58",
+							"label": "P-core 1 T0 Utility",
+							"value": 1.84247136,
+							"min": 0.4316401,
+							"max": 80.02242,
+							"avg": 8.866894
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "59",
+							"label": "P-core 1 T1 Utility",
+							"value": 0.0603852458,
+							"min": 0.02250538,
+							"max": 13.4025593,
+							"avg": 0.962118268
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "60",
+							"label": "P-core 2 T0 Utility",
+							"value": 0.8942479,
+							"min": 0.141058028,
+							"max": 32.7794876,
+							"avg": 5.09842
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "61",
+							"label": "P-core 2 T1 Utility",
+							"value": 0.0317294523,
+							"min": 0.008022937,
+							"max": 13.3123035,
+							"avg": 0.7250378
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "62",
+							"label": "P-core 3 T0 Utility",
+							"value": 0.344720542,
+							"min": 0.0669104,
+							"max": 26.3924465,
+							"avg": 3.27873158
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "63",
+							"label": "P-core 3 T1 Utility",
+							"value": 0.0443787538,
+							"min": 0.009780941,
+							"max": 13.3312588,
+							"avg": 0.6857237
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "64",
+							"label": "P-core 4 T0 Utility",
+							"value": 12.2771921,
+							"min": 2.217867,
+							"max": 104.160942,
+							"avg": 22.6812477
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "65",
+							"label": "P-core 4 T1 Utility",
+							"value": 5.153641,
+							"min": 1.523815,
+							"max": 88.5005646,
+							"avg": 16.8967228
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "66",
+							"label": "P-core 5 T0 Utility",
+							"value": 24.3684921,
+							"min": 4.694655,
+							"max": 101.184952,
+							"avg": 29.300333
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "67",
+							"label": "P-core 5 T1 Utility",
+							"value": 4.573788,
+							"min": 1.266833,
+							"max": 93.27854,
+							"avg": 14.1543646
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "68",
+							"label": "P-core 6 T0 Utility",
+							"value": 0.397572339,
+							"min": 0.143006861,
+							"max": 17.5426064,
+							"avg": 2.48755574
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "69",
+							"label": "P-core 6 T1 Utility",
+							"value": 0.03284319,
+							"min": 0.003225579,
+							"max": 16.4535313,
+							"avg": 0.8872614
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "70",
+							"label": "P-core 7 T0 Utility",
+							"value": 0.204637736,
+							"min": 0.0858656839,
+							"max": 14.82027,
+							"avg": 1.674245
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "71",
+							"label": "P-core 7 T1 Utility",
+							"value": 0.0100526726,
+							"min": 0.006847507,
+							"max": 13.2477856,
+							"avg": 0.650485933
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "72",
+							"label": "Total CPU Utility",
+							"value": 3.52982354,
+							"min": 2.15197825,
+							"max": 31.4606152,
+							"avg": 7.81822538
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "73",
+							"label": "P-core 0 Ratio",
+							"value": 53.0,
+							"min": 8.0,
+							"max": 53.0,
+							"avg": 51.3614464
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "74",
+							"label": "P-core 1 Ratio",
+							"value": 8.0,
+							"min": 8.0,
+							"max": 53.0,
+							"avg": 45.4096375
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "75",
+							"label": "P-core 2 Ratio",
+							"value": 8.0,
+							"min": 8.0,
+							"max": 53.0,
+							"avg": 49.7469864
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "76",
+							"label": "P-core 3 Ratio",
+							"value": 8.0,
+							"min": 8.0,
+							"max": 53.0,
+							"avg": 49.20482
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "77",
+							"label": "P-core 4 Ratio",
+							"value": 53.0,
+							"min": 53.0,
+							"max": 54.0,
+							"avg": 53.04819
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "78",
+							"label": "P-core 5 Ratio",
+							"value": 53.0,
+							"min": 53.0,
+							"max": 54.0,
+							"avg": 53.096386
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "79",
+							"label": "P-core 6 Ratio",
+							"value": 8.0,
+							"min": 8.0,
+							"max": 53.0,
+							"avg": 41.07229
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "80",
+							"label": "P-core 7 Ratio",
+							"value": 53.0,
+							"min": 8.0,
+							"max": 53.0,
+							"avg": 46.4939766
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "81",
+							"label": "Uncore Ratio",
+							"value": 45.0,
+							"min": 45.0,
+							"max": 48.0,
+							"avg": 46.0240974
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "82",
+							"label": "P-core 0",
+							"value": 24.0,
+							"min": 23.0,
+							"max": 48.0,
+							"avg": 26.8433743
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "83",
+							"label": "P-core 1",
+							"value": 25.0,
+							"min": 23.0,
+							"max": 49.0,
+							"avg": 27.73494
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "84",
+							"label": "P-core 2",
+							"value": 25.0,
+							"min": 23.0,
+							"max": 53.0,
+							"avg": 27.3493977
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "85",
+							"label": "P-core 3",
+							"value": 25.0,
+							"min": 22.0,
+							"max": 49.0,
+							"avg": 27.26506
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "86",
+							"label": "P-core 4",
+							"value": 31.0,
+							"min": 24.0,
+							"max": 55.0,
+							"avg": 34.144577
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "87",
+							"label": "P-core 5",
+							"value": 28.0,
+							"min": 24.0,
+							"max": 51.0,
+							"avg": 31.53012
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "88",
+							"label": "P-core 6",
+							"value": 27.0,
+							"min": 24.0,
+							"max": 41.0,
+							"avg": 27.9759045
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "89",
+							"label": "P-core 7",
+							"value": 23.0,
+							"min": 22.0,
+							"max": 33.0,
+							"avg": 25.26506
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "90",
+							"label": "P-core 0 Distance to TjMAX",
+							"value": 76.0,
+							"min": 52.0,
+							"max": 77.0,
+							"avg": 73.1566238
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "91",
+							"label": "P-core 1 Distance to TjMAX",
+							"value": 75.0,
+							"min": 51.0,
+							"max": 77.0,
+							"avg": 72.26506
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "92",
+							"label": "P-core 2 Distance to TjMAX",
+							"value": 75.0,
+							"min": 47.0,
+							"max": 77.0,
+							"avg": 72.6506042
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "93",
+							"label": "P-core 3 Distance to TjMAX",
+							"value": 75.0,
+							"min": 51.0,
+							"max": 78.0,
+							"avg": 72.73494
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "94",
+							"label": "P-core 4 Distance to TjMAX",
+							"value": 69.0,
+							"min": 45.0,
+							"max": 76.0,
+							"avg": 65.85542
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "95",
+							"label": "P-core 5 Distance to TjMAX",
+							"value": 72.0,
+							"min": 49.0,
+							"max": 76.0,
+							"avg": 68.46988
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "96",
+							"label": "P-core 6 Distance to TjMAX",
+							"value": 73.0,
+							"min": 59.0,
+							"max": 76.0,
+							"avg": 72.02409
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "97",
+							"label": "P-core 7 Distance to TjMAX",
+							"value": 77.0,
+							"min": 67.0,
+							"max": 78.0,
+							"avg": 74.73494
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "98",
+							"label": "CPU Package",
+							"value": 28.0,
+							"min": 27.0,
+							"max": 51.0,
+							"avg": 33.92771
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "99",
+							"label": "Core Max",
+							"value": 31.0,
+							"min": 28.0,
+							"max": 55.0,
+							"avg": 35.1566277
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "100",
+							"label": "P-core 0 Thermal Throttling",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "101",
+							"label": "P-core 1 Thermal Throttling",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "102",
+							"label": "P-core 2 Thermal Throttling",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "103",
+							"label": "P-core 3 Thermal Throttling",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "104",
+							"label": "P-core 4 Thermal Throttling",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "105",
+							"label": "P-core 5 Thermal Throttling",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "106",
+							"label": "P-core 6 Thermal Throttling",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "107",
+							"label": "P-core 7 Thermal Throttling",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "108",
+							"label": "P-core 0 Critical Temperature",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "109",
+							"label": "P-core 1 Critical Temperature",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "110",
+							"label": "P-core 2 Critical Temperature",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "111",
+							"label": "P-core 3 Critical Temperature",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "112",
+							"label": "P-core 4 Critical Temperature",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "113",
+							"label": "P-core 5 Critical Temperature",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "114",
+							"label": "P-core 6 Critical Temperature",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "115",
+							"label": "P-core 7 Critical Temperature",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "116",
+							"label": "P-core 0 Power Limit Exceeded",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "117",
+							"label": "P-core 1 Power Limit Exceeded",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "118",
+							"label": "P-core 2 Power Limit Exceeded",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "119",
+							"label": "P-core 3 Power Limit Exceeded",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "120",
+							"label": "P-core 4 Power Limit Exceeded",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "121",
+							"label": "P-core 5 Power Limit Exceeded",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "122",
+							"label": "P-core 6 Power Limit Exceeded",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "123",
+							"label": "P-core 7 Power Limit Exceeded",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "124",
+							"label": "Package/Ring Thermal Throttling",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "125",
+							"label": "Package/Ring Critical Temperature",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "126",
+							"label": "Package/Ring Power Limit Exceeded",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "127",
+							"label": "CPU Package",
+							"value": 28.0,
+							"min": 28.0,
+							"max": 53.0,
+							"avg": 32.9759026
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "128",
+							"label": "CPU IA Cores",
+							"value": 28.0,
+							"min": 27.0,
+							"max": 53.0,
+							"avg": 32.903614
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "129",
+							"label": "VR VCC Temperature (SVID)",
+							"value": 29.0,
+							"min": 28.0,
+							"max": 30.0,
+							"avg": 29.048193
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "130",
+							"label": "IA Voltage Offset",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "131",
+							"label": "GT Voltage Offset",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "132",
+							"label": "CLR (CBo/LLC/Ring) Voltage Offset",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "133",
+							"label": "GT Media Voltage Offset",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "134",
+							"label": "SA Voltage Offset",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "135",
+							"label": "L2 E-core Voltage Offset",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "136",
+							"label": "VDDQ TX Voltage",
+							"value": 1.3,
+							"min": 1.3,
+							"max": 1.3,
+							"avg": 1.3
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "137",
+							"label": "CPU Package Power",
+							"value": 19.6255131,
+							"min": 17.3324032,
+							"max": 72.8187943,
+							"avg": 33.5072021
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "138",
+							"label": "IA Cores Power",
+							"value": 6.28999662,
+							"min": 4.02889872,
+							"max": 56.5569267,
+							"avg": 19.4541626
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "139",
+							"label": "System Agent Power",
+							"value": 12.1054554,
+							"min": 12.0248146,
+							"max": 15.0189562,
+							"avg": 12.801631
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "140",
+							"label": "Rest-of-Chip Power",
+							"value": 0.423567355,
+							"min": 0.41840142,
+							"max": 0.5375807,
+							"avg": 0.438170463
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "141",
+							"label": "PL1 Power Limit",
+							"value": 4095.875,
+							"min": 4095.875,
+							"max": 4095.875,
+							"avg": 4095.875
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "142",
+							"label": "PL2 Power Limit",
+							"value": 4095.875,
+							"min": 4095.875,
+							"max": 4095.875,
+							"avg": 4095.875
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "143",
+							"label": "IA OC Ratio Limit",
+							"value": 54.0,
+							"min": 54.0,
+							"max": 54.0,
+							"avg": 54.0
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "144",
+							"label": "GT OC Ratio Limit",
+							"value": 1.0,
+							"min": 1.0,
+							"max": 1.0,
+							"avg": 1.0
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "145",
+							"label": "CLR (CBo/LLC/Ring) OC Ratio Limit",
+							"value": 48.0,
+							"min": 48.0,
+							"max": 48.0,
+							"avg": 48.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "146",
+							"label": "Package C2 Residency",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "147",
+							"label": "Package C3 Residency",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "148",
+							"label": "P-core 0 T0 C0 Residency",
+							"value": 10.4701624,
+							"min": 3.71636438,
+							"max": 43.1174927,
+							"avg": 12.7004595
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "149",
+							"label": "P-core 0 T1 C0 Residency",
+							"value": 0.191075638,
+							"min": 0.05721402,
+							"max": 8.919173,
+							"avg": 0.979345
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "150",
+							"label": "P-core 1 T0 C0 Residency",
+							"value": 4.100859,
+							"min": 0.879928946,
+							"max": 53.01435,
+							"avg": 7.15010166
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "151",
+							"label": "P-core 1 T1 C0 Residency",
+							"value": 0.169031262,
+							"min": 0.05524978,
+							"max": 9.660974,
+							"avg": 0.7604256
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "152",
+							"label": "P-core 2 T0 C0 Residency",
+							"value": 2.21999145,
+							"min": 0.478599578,
+							"max": 22.738987,
+							"avg": 4.334188
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "153",
+							"label": "P-core 2 T1 C0 Residency",
+							"value": 0.0929260552,
+							"min": 0.02579848,
+							"max": 10.3284683,
+							"avg": 0.5708352
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "154",
+							"label": "P-core 3 T0 C0 Residency",
+							"value": 1.14254415,
+							"min": 0.349056482,
+							"max": 18.6176376,
+							"avg": 2.86540747
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "155",
+							"label": "P-core 3 T1 C0 Residency",
+							"value": 0.1232048,
+							"min": 0.0308915917,
+							"max": 13.88168,
+							"avg": 0.537514567
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "156",
+							"label": "P-core 4 T0 C0 Residency",
+							"value": 16.7962322,
+							"min": 2.74691248,
+							"max": 67.77935,
+							"avg": 17.3164234
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "157",
+							"label": "P-core 4 T1 C0 Residency",
+							"value": 7.002068,
+							"min": 1.59392238,
+							"max": 56.98795,
+							"avg": 12.1046915
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "158",
+							"label": "P-core 5 T0 C0 Residency",
+							"value": 23.01773,
+							"min": 3.95535922,
+							"max": 65.78458,
+							"avg": 21.51638
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "159",
+							"label": "P-core 5 T1 C0 Residency",
+							"value": 6.86792469,
+							"min": 1.64773858,
+							"max": 58.19792,
+							"avg": 10.5158873
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "160",
+							"label": "P-core 6 T0 C0 Residency",
+							"value": 1.71169949,
+							"min": 0.9775842,
+							"max": 12.6210594,
+							"avg": 2.71510243
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "161",
+							"label": "P-core 6 T1 C0 Residency",
+							"value": 0.05814094,
+							"min": 0.00924934447,
+							"max": 16.80841,
+							"avg": 0.6140942
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "162",
+							"label": "P-core 7 T0 C0 Residency",
+							"value": 0.6550076,
+							"min": 0.312577784,
+							"max": 12.6499453,
+							"avg": 1.57516563
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "163",
+							"label": "P-core 7 T1 C0 Residency",
+							"value": 0.0437653251,
+							"min": 0.0280199,
+							"max": 11.9325762,
+							"avg": 0.496533424
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "164",
+							"label": "P-core 0 C1 Residency",
+							"value": 89.45013,
+							"min": 55.385,
+							"max": 96.2543259,
+							"avg": 86.72107
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "165",
+							"label": "P-core 1 C1 Residency",
+							"value": 44.3028069,
+							"min": 2.6949966,
+							"max": 94.49593,
+							"avg": 44.84098
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "166",
+							"label": "P-core 2 C1 Residency",
+							"value": 4.519502,
+							"min": 0.009473983,
+							"max": 96.14987,
+							"avg": 28.2893429
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "167",
+							"label": "P-core 3 C1 Residency",
+							"value": 1.01861584,
+							"min": 0.007912172,
+							"max": 73.3840256,
+							"avg": 14.3603706
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "168",
+							"label": "P-core 4 C1 Residency",
+							"value": 77.09348,
+							"min": 19.50397,
+							"max": 93.07924,
+							"avg": 71.54059
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "169",
+							"label": "P-core 5 C1 Residency",
+							"value": 69.85084,
+							"min": 13.2829247,
+							"max": 91.64375,
+							"avg": 68.53655
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "170",
+							"label": "P-core 6 C1 Residency",
+							"value": 63.1313744,
+							"min": 0.0339016952,
+							"max": 98.61615,
+							"avg": 63.12695
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "171",
+							"label": "P-core 7 C1 Residency",
+							"value": 1.45223129,
+							"min": 0.00621872,
+							"max": 57.6504936,
+							"avg": 8.19271851
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "172",
+							"label": "P-core 0 C6 Residency",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 1.31147707,
+							"avg": 0.01067945
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "173",
+							"label": "P-core 1 C6 Residency",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.285680652,
+							"avg": 0.004812635
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "174",
+							"label": "P-core 2 C6 Residency",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 1.206122,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "175",
+							"label": "P-core 3 C6 Residency",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 4.984381,
+							"avg": 0.07608049
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "176",
+							"label": "P-core 4 C6 Residency",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 2.15062737,
+							"avg": 0.194425374
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "177",
+							"label": "P-core 5 C6 Residency",
+							"value": 0.4504072,
+							"min": 0.0,
+							"max": 1.89973545,
+							"avg": 0.314805478
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "178",
+							"label": "P-core 6 C6 Residency",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "179",
+							"label": "P-core 7 C6 Residency",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.3481279,
+							"avg": 0.004194312
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "180",
+							"label": "P-core 0 C7 Residency",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 7.19253826,
+							"avg": 0.09610863
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "181",
+							"label": "P-core 1 C7 Residency",
+							"value": 50.55044,
+							"min": 0.0,
+							"max": 95.47305,
+							"avg": 47.0226059
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "182",
+							"label": "P-core 2 C7 Residency",
+							"value": 92.1263657,
+							"min": 0.0,
+							"max": 98.87205,
+							"avg": 66.41852
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "183",
+							"label": "P-core 3 C7 Residency",
+							"value": 96.94951,
+							"min": 8.491748,
+							"max": 99.10299,
+							"avg": 81.70408
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "184",
+							"label": "P-core 4 C7 Residency",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 1.2046622,
+							"avg": 0.10096772
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "185",
+							"label": "P-core 5 C7 Residency",
+							"value": 0.256913036,
+							"min": 0.0,
+							"max": 1.66483963,
+							"avg": 0.16990912
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "186",
+							"label": "P-core 6 C7 Residency",
+							"value": 34.3847771,
+							"min": 0.0,
+							"max": 97.01262,
+							"avg": 33.12107
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "187",
+							"label": "P-core 7 C7 Residency",
+							"value": 97.37155,
+							"min": 31.3470268,
+							"max": 99.2558,
+							"avg": 89.42218
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "188",
+							"label": "IA: PROCHOT",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "189",
+							"label": "IA: Thermal Event",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "190",
+							"label": "IA: Residency State Regulation",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "191",
+							"label": "IA: Running Average Thermal Limit",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "192",
+							"label": "IA: VR Thermal Alert",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "193",
+							"label": "IA: VR TDC",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "194",
+							"label": "IA: Electrical Design Point/Other (ICCmax,PL4,SVID,DDR RAPL)",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "195",
+							"label": "IA: Package-Level RAPL/PBM PL1",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "196",
+							"label": "IA: Package-Level RAPL/PBM PL2,PL3",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "197",
+							"label": "IA: Max Turbo Limit",
+							"value": 1.0,
+							"min": 1.0,
+							"max": 1.0,
+							"avg": 1.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "198",
+							"label": "IA: Turbo Attenuation (MCT)",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "199",
+							"label": "IA: Thermal Velocity Boost",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "200",
+							"label": "GT: PROCHOT",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "201",
+							"label": "GT: Thermal Event",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "202",
+							"label": "GT: DDR RAPL",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "203",
+							"label": "GT: Residency State Regulation",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "204",
+							"label": "GT: Running Average Thermal Limit",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "205",
+							"label": "GT: VR Thermal Alert",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "206",
+							"label": "GT: VR TDC",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "207",
+							"label": "GT: Max VR Voltage, ICCmax, PL4",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "208",
+							"label": "GT: Domain-Level PBM PLGT",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "209",
+							"label": "GT: Package-Level RAPL/PBM PL1",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "210",
+							"label": "GT: Package-Level RAPL/PBM PL2,PL3",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "211",
+							"label": "GT: Inefficient Operation",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "212",
+							"label": "GT: Fuses limit",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "213",
+							"label": "RING: PROCHOT",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "214",
+							"label": "RING: Thermal Event",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "215",
+							"label": "RING: DDR RAPL",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "216",
+							"label": "RING: Residency State Regulation",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "217",
+							"label": "RING: Running Average Thermal Limit",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "218",
+							"label": "RING: VR Thermal Alert",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "219",
+							"label": "RING: VR TDC",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "220",
+							"label": "RING: Max VR Voltage, ICCmax, PL4",
+							"value": 1.0,
+							"min": 1.0,
+							"max": 1.0,
+							"avg": 1.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "221",
+							"label": "RING: Package-Level RAPL/PBM PL1",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "222",
+							"label": "RING: Package-Level RAPL/PBM PL2,PL3",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						}
+					]
+				},
+				{
+					"hardwaretype": "Memory",
+					"title": "System: EVGA Corp. Z690 DARK KINGPIN",
+					"id": "memory/system:evgacorp.z690darkkingpin",
+					"sensors": [
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "0",
+							"label": "Virtual Memory Committed",
+							"value": 6659.0,
+							"min": 5759.0,
+							"max": 7268.0,
+							"avg": 6484.69873
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "1",
+							"label": "Virtual Memory Available",
+							"value": 40279.0,
+							"min": 39669.0,
+							"max": 41179.0,
+							"avg": 40453.06
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "2",
+							"label": "Virtual Memory Load",
+							"value": 14.1,
+							"min": 12.2,
+							"max": 15.4,
+							"avg": 13.761446
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "3",
+							"label": "Physical Memory Used",
+							"value": 4410.0,
+							"min": 3844.0,
+							"max": 4613.0,
+							"avg": 4366.63867
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "4",
+							"label": "Physical Memory Available",
+							"value": 28192.0,
+							"min": 27989.0,
+							"max": 28758.0,
+							"avg": 28235.0957
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "5",
+							"label": "Physical Memory Load",
+							"value": 13.5,
+							"min": 11.7,
+							"max": 14.1,
+							"avg": 13.3397589
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "6",
+							"label": "Page File Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						}
+					]
+				},
+				{
+					"hardwaretype": "Memory",
+					"title": "Memory Timings",
+					"id": "memory/memorytimings",
+					"sensors": [
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "0",
+							"label": "Memory Clock",
+							"value": 3400.0,
+							"min": 3399.184,
+							"max": 3400.0,
+							"avg": 3399.705
+						},
+						{
+							"sensortype": "Multiplier",
+							"unit": "x",
+							"id": "1",
+							"label": "Memory Clock Ratio",
+							"value": 34.0,
+							"min": 34.0,
+							"max": 34.0,
+							"avg": 34.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "T",
+							"id": "2",
+							"label": "Tcas",
+							"value": 34.0,
+							"min": 34.0,
+							"max": 34.0,
+							"avg": 34.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "T",
+							"id": "3",
+							"label": "Trcd",
+							"value": 45.0,
+							"min": 45.0,
+							"max": 45.0,
+							"avg": 45.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "T",
+							"id": "4",
+							"label": "Trp",
+							"value": 45.0,
+							"min": 45.0,
+							"max": 45.0,
+							"avg": 45.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "T",
+							"id": "5",
+							"label": "Tras",
+							"value": 108.0,
+							"min": 108.0,
+							"max": 108.0,
+							"avg": 108.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "T",
+							"id": "6",
+							"label": "Trc",
+							"value": 153.0,
+							"min": 153.0,
+							"max": 153.0,
+							"avg": 153.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "T",
+							"id": "7",
+							"label": "Trfc",
+							"value": 543.0,
+							"min": 543.0,
+							"max": 543.0,
+							"avg": 543.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "T",
+							"id": "8",
+							"label": "Command Rate",
+							"value": 2.0,
+							"min": 2.0,
+							"max": 2.0,
+							"avg": 2.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "",
+							"id": "9",
+							"label": "Gear Mode",
+							"value": 2.0,
+							"min": 2.0,
+							"max": 2.0,
+							"avg": 2.0
+						}
+					]
+				},
+				{
+					"hardwaretype": "Graphics",
+					"title": "GPU [#0]: NVIDIA GeForce RTX 4090: ",
+					"id": "graphics/gpu[#0]:nvidiageforcertx4090:",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "0",
+							"label": "GPU Temperature",
+							"value": 20.2539063,
+							"min": 20.1367188,
+							"max": 22.5664063,
+							"avg": 20.81104
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "1",
+							"label": "GPU Memory Junction Temperature",
+							"value": 22.0,
+							"min": 20.0,
+							"max": 24.0,
+							"avg": 22.26506
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "2",
+							"label": "GPU Hot Spot Temperature",
+							"value": 28.21875,
+							"min": 28.0,
+							"max": 29.53125,
+							"avg": 28.4736443
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "3",
+							"label": "GPU Thermal Limit",
+							"value": 83.0,
+							"min": 83.0,
+							"max": 83.0,
+							"avg": 83.0
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "4",
+							"label": "GPU Core Voltage",
+							"value": 0.89,
+							"min": 0.89,
+							"max": 0.965,
+							"avg": 0.9044578
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "5",
+							"label": "GPU FBVDD Input Voltage",
+							"value": 12.3097858,
+							"min": 12.2812948,
+							"max": 12.3182926,
+							"avg": 12.2971525
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "6",
+							"label": "GPU PCIe +12V Input Voltage",
+							"value": 12.3618212,
+							"min": 12.308527,
+							"max": 12.3764257,
+							"avg": 12.3410463
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "7",
+							"label": "GPU 16-pin HVPWR Voltage",
+							"value": 12.343667,
+							"min": 12.3021421,
+							"max": 12.3576794,
+							"avg": 12.3257437
+						},
+						{
+							"sensortype": "Fan",
+							"unit": "RPM",
+							"id": "8",
+							"label": "GPU Fan1",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Fan",
+							"unit": "RPM",
+							"id": "9",
+							"label": "GPU Fan2",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "10",
+							"label": "GPU Power",
+							"value": 14.528,
+							"min": 12.628,
+							"max": 61.947,
+							"avg": 24.8450356
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "11",
+							"label": "GPU Core (NVVDD) Input Power (sum)",
+							"value": 2.486,
+							"min": 1.567,
+							"max": 28.854,
+							"avg": 7.724012
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "12",
+							"label": "GPU FBVDD Input Power",
+							"value": 9.78628,
+							"min": 8.578735,
+							"max": 26.0486259,
+							"avg": 13.1697083
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "13",
+							"label": "GPU PCIe +12V Input Power",
+							"value": 2.2374897,
+							"min": 2.22570014,
+							"max": 7.10606432,
+							"avg": 3.93520832
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "14",
+							"label": "GPU 16-pin HVPWR Power",
+							"value": 12.281949,
+							"min": 10.3715277,
+							"max": 54.9066734,
+							"avg": 20.8975563
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "15",
+							"label": "GPU Input PP Source Power (sum)",
+							"value": 12.042,
+							"min": 10.827,
+							"max": 33.0930023,
+							"avg": 17.1210232
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "16",
+							"label": "GPU Core (NVVDD) Output Power",
+							"value": 17.3968143,
+							"min": 16.90902,
+							"max": 28.53466,
+							"avg": 19.6505566
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "17",
+							"label": "GPU Core (NVVDD) Output Power",
+							"value": 18.2185555,
+							"min": 17.7561,
+							"max": 30.64852,
+							"avg": 20.04836
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "18",
+							"label": "GPU Clock",
+							"value": 210.0,
+							"min": 210.0,
+							"max": 2520.0,
+							"avg": 730.8434
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "19",
+							"label": "GPU Memory Clock",
+							"value": 101.25,
+							"min": 101.25,
+							"max": 2625.496,
+							"avg": 746.1133
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "20",
+							"label": "GPU Video Clock",
+							"value": 1185.0,
+							"min": 1185.0,
+							"max": 1980.0,
+							"avg": 1427.34937
+						},
+						{
+							"sensortype": "Clock",
+							"unit": "MHz",
+							"id": "21",
+							"label": "GPU Effective Clock",
+							"value": 173.368,
+							"min": 150.886,
+							"max": 2519.994,
+							"avg": 677.621765
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "22",
+							"label": "GPU Core Load",
+							"value": 9.0,
+							"min": 0.0,
+							"max": 97.0,
+							"avg": 6.81927729
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "23",
+							"label": "GPU Memory Controller Load",
+							"value": 29.0,
+							"min": 1.0,
+							"max": 78.0,
+							"avg": 17.45783
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "24",
+							"label": "GPU Video Engine Load",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "25",
+							"label": "GPU Bus Load",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 5.0,
+							"avg": 0.361445785
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "26",
+							"label": "GPU Memory Usage",
+							"value": 4.95761728,
+							"min": 3.707471,
+							"max": 4.9934926,
+							"avg": 4.464871
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "27",
+							"label": "GPU D3D Usage",
+							"value": 5.239718,
+							"min": 0.122637667,
+							"max": 34.5287628,
+							"avg": 5.81888533
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "28",
+							"label": "GPU Video Decode 0 Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "29",
+							"label": "GPU Video Encode 0 Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "30",
+							"label": "GPU Video Encode 1 Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "31",
+							"label": "GPU Computing (Compute_0) Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "32",
+							"label": "GPU Computing (Cuda) Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "33",
+							"label": "GPU Computing (Compute_1) Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "34",
+							"label": "GPU VR Usage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "35",
+							"label": "GPU Fan1",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 30.0,
+							"avg": 14.096386
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "36",
+							"label": "GPU Fan2",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 30.0,
+							"avg": 14.096386
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "37",
+							"label": "Performance Limit - Power",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "38",
+							"label": "Performance Limit - Thermal",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "39",
+							"label": "Performance Limit - Reliability Voltage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "40",
+							"label": "Performance Limit - Max Operating Voltage",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "41",
+							"label": "Performance Limit - Utilization",
+							"value": 1.0,
+							"min": 1.0,
+							"max": 1.0,
+							"avg": 1.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "42",
+							"label": "Performance Limit - SLI GPUBoost Sync",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "43",
+							"label": "Total GPU Power (normalized) [% of TDP]",
+							"value": 3.921,
+							"min": 3.615,
+							"max": 13.362,
+							"avg": 6.46736145
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "44",
+							"label": "Total GPU Power [% of TDP]",
+							"value": 3.228,
+							"min": 2.806,
+							"max": 13.766,
+							"avg": 5.52315664
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "45",
+							"label": "GPU Memory Allocated",
+							"value": 1217.78906,
+							"min": 910.7031,
+							"max": 1226.60156,
+							"avg": 1096.75085
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "46",
+							"label": "GPU D3D Memory Dedicated",
+							"value": 815.347656,
+							"min": 507.730469,
+							"max": 824.1836,
+							"avg": 694.1628
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "47",
+							"label": "GPU D3D Memory Dynamic",
+							"value": 103.496094,
+							"min": 90.11328,
+							"max": 124.042969,
+							"avg": 106.0761
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "GT/s",
+							"id": "48",
+							"label": "PCIe Link Speed",
+							"value": 2.5,
+							"min": 2.5,
+							"max": 16.0,
+							"avg": 6.98795176
+						}
+					]
+				},
+				{
+					"hardwaretype": "Mainboard",
+					"title": "EVGA Corp. Z690 DARK KINGPIN (Renesas RAA229131)",
+					"id": "mainboard/evgacorp.z690darkkingpin(renesasraa229131)",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "0",
+							"label": "VR Loop1",
+							"value": 29.0,
+							"min": 28.0,
+							"max": 30.0,
+							"avg": 29.096386
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "1",
+							"label": "VR Loop2",
+							"value": 25.0,
+							"min": 24.0,
+							"max": 25.0,
+							"avg": 24.73494
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "2",
+							"label": "VR VOUT",
+							"value": 1.271,
+							"min": 1.263,
+							"max": 1.296,
+							"avg": 1.2786144
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "3",
+							"label": "VR VIN",
+							"value": 12.02,
+							"min": 12.0,
+							"max": 12.1,
+							"avg": 12.0644579
+						},
+						{
+							"sensortype": "Current",
+							"unit": "A",
+							"id": "4",
+							"label": "Current (IOUT)",
+							"value": 23.9,
+							"min": 12.8,
+							"max": 89.7,
+							"avg": 23.451807
+						},
+						{
+							"sensortype": "Current",
+							"unit": "A",
+							"id": "5",
+							"label": "Current (IIN)",
+							"value": 2.33,
+							"min": 1.51,
+							"max": 9.27,
+							"avg": 3.13771081
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "6",
+							"label": "Power (POUT)",
+							"value": 18.0,
+							"min": 8.0,
+							"max": 107.0,
+							"avg": 29.3493977
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "7",
+							"label": "Power (Input)",
+							"value": 26.0,
+							"min": 21.0,
+							"max": 128.0,
+							"avg": 38.1566277
+						}
+					]
+				},
+				{
+					"hardwaretype": "Mainboard",
+					"title": "EVGA Corp. Z690 DARK KINGPIN (Renesas RAA229131)",
+					"id": "mainboard/evgacorp.z690darkkingpin(renesasraa229131)",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "0",
+							"label": "VR Loop2",
+							"value": 25.0,
+							"min": 24.0,
+							"max": 26.0,
+							"avg": 24.73494
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "1",
+							"label": "VR VIN",
+							"value": 12.08,
+							"min": 11.98,
+							"max": 12.11,
+							"avg": 12.0615664
+						}
+					]
+				},
+				{
+					"hardwaretype": "Mainboard",
+					"title": "EVGA EC: EVGA Corp. Z690 DARK KINGPIN",
+					"id": "mainboard/evgaec:evgacorp.z690darkkingpin",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "0",
+							"label": "CPU",
+							"value": 29.0,
+							"min": 29.0,
+							"max": 45.0,
+							"avg": 32.1927719
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "1",
+							"label": "VREG PWM",
+							"value": 20.0,
+							"min": 19.0,
+							"max": 20.0,
+							"avg": 19.6265068
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "2",
+							"label": "System",
+							"value": 18.0,
+							"min": 16.0,
+							"max": 18.0,
+							"avg": 17.289156
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "3",
+							"label": "ATX 6P/PCIe",
+							"value": 15.0,
+							"min": 15.0,
+							"max": 15.0,
+							"avg": 15.0
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "4",
+							"label": "M.2 KEY-M(1)",
+							"value": 25.0,
+							"min": 21.0,
+							"max": 25.0,
+							"avg": 23.289156
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "5",
+							"label": "M.2 KEY-M(2)",
+							"value": 22.0,
+							"min": 19.0,
+							"max": 22.0,
+							"avg": 20.6144581
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "6",
+							"label": "VDIMM VRM",
+							"value": 18.0,
+							"min": 16.0,
+							"max": 18.0,
+							"avg": 17.0722885
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "7",
+							"label": "PCH",
+							"value": 22.0,
+							"min": 20.0,
+							"max": 22.0,
+							"avg": 21.3132534
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "8",
+							"label": "CPU VCore",
+							"value": 0.735,
+							"min": 0.723,
+							"max": 1.294,
+							"avg": 1.17577112
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "9",
+							"label": "CPU VCCIN AUX",
+							"value": 1.783,
+							"min": 1.78,
+							"max": 1.786,
+							"avg": 1.78336143
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "10",
+							"label": "CPU 1.8V",
+							"value": 1.792,
+							"min": 1.789,
+							"max": 1.792,
+							"avg": 1.79163861
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "11",
+							"label": "CPU 1.05V",
+							"value": 1.074,
+							"min": 1.074,
+							"max": 1.077,
+							"avg": 1.07439756
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "12",
+							"label": "CPU VDD2",
+							"value": 1.397,
+							"min": 1.397,
+							"max": 1.4,
+							"avg": 1.398482
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "13",
+							"label": "PCH 0.82V",
+							"value": 0.814,
+							"min": 0.814,
+							"max": 0.817,
+							"avg": 0.814180732
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "14",
+							"label": "PCH 1.8V",
+							"value": 1.792,
+							"min": 1.792,
+							"max": 1.798,
+							"avg": 1.79351807
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "15",
+							"label": "PCH 1.05V",
+							"value": 1.048,
+							"min": 1.045,
+							"max": 1.048,
+							"avg": 1.04785538
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "16",
+							"label": "+3.3V",
+							"value": 3.327,
+							"min": 3.321,
+							"max": 3.333,
+							"avg": 3.327506
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "17",
+							"label": "+3.3V EC",
+							"value": 3.292,
+							"min": 3.292,
+							"max": 3.292,
+							"avg": 3.292
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "18",
+							"label": "+5V",
+							"value": 5.067,
+							"min": 5.061,
+							"max": 5.073,
+							"avg": 5.066205
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "19",
+							"label": "+12V",
+							"value": 12.086,
+							"min": 11.973,
+							"max": 12.086,
+							"avg": 12.0361567
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "20",
+							"label": "VGT",
+							"value": 1.08,
+							"min": 1.08,
+							"max": 1.083,
+							"avg": 1.08007228
+						}
+					]
+				},
+				{
+					"hardwaretype": "Storage",
+					"title": "S.M.A.R.T.: WD_BLACK SN850X 1000GB (224063800014)",
+					"id": "storage/s.m.a.r.t.:wd_blacksn850x1000gb(224063800014)",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "0",
+							"label": "Drive Temperature",
+							"value": 26.0,
+							"min": 26.0,
+							"max": 26.0,
+							"avg": 26.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "1",
+							"label": "Drive Remaining Life",
+							"value": 100.0,
+							"min": 100.0,
+							"max": 100.0,
+							"avg": 100.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "2",
+							"label": "Drive Failure",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "3",
+							"label": "Drive Warning",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "4",
+							"label": "Total Host Writes",
+							"value": 741.0,
+							"min": 741.0,
+							"max": 741.0,
+							"avg": 741.0
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "5",
+							"label": "Total Host Reads",
+							"value": 1357.0,
+							"min": 1357.0,
+							"max": 1357.0,
+							"avg": 1357.0
+						}
+					]
+				},
+				{
+					"hardwaretype": "Storage",
+					"title": "S.M.A.R.T.: WD_BLACK SN770 500GB (22126A800055)",
+					"id": "storage/s.m.a.r.t.:wd_blacksn770500gb(22126a800055)",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "0",
+							"label": "Drive Temperature",
+							"value": 23.0,
+							"min": 23.0,
+							"max": 23.0,
+							"avg": 23.0
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "1",
+							"label": "Drive Temperature 2",
+							"value": 37.0,
+							"min": 37.0,
+							"max": 37.0,
+							"avg": 37.0
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "2",
+							"label": "Drive Temperature 3",
+							"value": 23.0,
+							"min": 23.0,
+							"max": 23.0,
+							"avg": 23.0
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "3",
+							"label": "Drive Remaining Life",
+							"value": 100.0,
+							"min": 100.0,
+							"max": 100.0,
+							"avg": 100.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "4",
+							"label": "Drive Failure",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "5",
+							"label": "Drive Warning",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "6",
+							"label": "Total Host Writes",
+							"value": 42.0,
+							"min": 42.0,
+							"max": 42.0,
+							"avg": 42.0
+						},
+						{
+							"sensortype": "Data",
+							"unit": "GB",
+							"id": "7",
+							"label": "Total Host Reads",
+							"value": 76.0,
+							"min": 76.0,
+							"max": 76.0,
+							"avg": 76.0
+						}
+					]
+				},
+				{
+					"hardwaretype": "Storage",
+					"title": "Drive: WD_BLACK SN850X 1000GB (224063800014)",
+					"id": "storage/drive:wd_blacksn850x1000gb(224063800014)",
+					"sensors": [
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "0",
+							"label": "Read Activity",
+							"value": 0.01,
+							"min": 0.0,
+							"max": 100.0,
+							"avg": 5.13416862
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "1",
+							"label": "Write Activity",
+							"value": 0.465,
+							"min": 0.0,
+							"max": 7.828,
+							"avg": 0.448361456
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "2",
+							"label": "Total Activity",
+							"value": 0.476,
+							"min": 0.0,
+							"max": 100.0,
+							"avg": 5.57775927
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "MB/s",
+							"id": "3",
+							"label": "Read Rate",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 340.855,
+							"avg": 12.7764339
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "MB/s",
+							"id": "4",
+							"label": "Write Rate",
+							"value": 22.177,
+							"min": 0.0,
+							"max": 37.873,
+							"avg": 2.35692763
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "5",
+							"label": "Read Total",
+							"value": 3203.0,
+							"min": 2196.0,
+							"max": 3203.0,
+							"avg": 2836.229
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "6",
+							"label": "Write Total",
+							"value": 341.0,
+							"min": 155.0,
+							"max": 341.0,
+							"avg": 255.554214
+						}
+					]
+				},
+				{
+					"hardwaretype": "Storage",
+					"title": "Drive: WD_BLACK SN770 500GB (22126A800055)",
+					"id": "storage/drive:wd_blacksn770500gb(22126a800055)",
+					"sensors": [
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "0",
+							"label": "Read Activity",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.12,
+							"avg": 0.00144578319
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "1",
+							"label": "Write Activity",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.079,
+							"avg": 0.00195180718
+						},
+						{
+							"sensortype": "Usage",
+							"unit": "%",
+							"id": "2",
+							"label": "Total Activity",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.12,
+							"avg": 0.00339759025
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "MB/s",
+							"id": "3",
+							"label": "Read Rate",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.012,
+							"avg": 0.000144578313
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "MB/s",
+							"id": "4",
+							"label": "Write Rate",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.067,
+							"avg": 0.00104819273
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "5",
+							"label": "Read Total",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "6",
+							"label": "Write Total",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						}
+					]
+				},
+				{
+					"hardwaretype": "Network",
+					"title": "Network: Intel(R) Ethernet Controller (3) I225-V",
+					"id": "network/network:intel(r)ethernetcontroller(3)i225-v",
+					"sensors": [
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "0",
+							"label": "Total DL",
+							"value": 3.65311813,
+							"min": 2.41020966,
+							"max": 3.65311813,
+							"avg": 3.199815
+						},
+						{
+							"sensortype": "Data",
+							"unit": "MB",
+							"id": "1",
+							"label": "Total UP",
+							"value": 8.028187,
+							"min": 0.274623871,
+							"max": 8.028187,
+							"avg": 4.89904547
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "KB/s",
+							"id": "2",
+							"label": "Current DL rate",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 396.374634,
+							"avg": 20.1195526
+						},
+						{
+							"sensortype": "Bitrate",
+							"unit": "KB/s",
+							"id": "3",
+							"label": "Current UP rate",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 3605.10156,
+							"avg": 96.42951
+						}
+					]
+				},
+				{
+					"hardwaretype": "Misc",
+					"title": "DDR5 DIMM [#0] (BANK 0/Controller0-ChannelA-DIMM0)",
+					"id": "misc/ddr5dimm[#0](bank0/controller0-channela-dimm0)",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "0",
+							"label": "SPD Hub Temperature",
+							"value": 24.25,
+							"min": 24.25,
+							"max": 25.75,
+							"avg": 24.71988
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "1",
+							"label": "VDD (SWA) Voltage",
+							"value": 1.41,
+							"min": 1.245,
+							"max": 1.41,
+							"avg": 1.40277112
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "2",
+							"label": "VDDQ (SWB) Voltage",
+							"value": 1.41,
+							"min": 1.41,
+							"max": 1.425,
+							"avg": 1.41072285
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "3",
+							"label": "VPP (SWC) Voltage",
+							"value": 1.8,
+							"min": 1.605,
+							"max": 1.815,
+							"avg": 1.80054212
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "4",
+							"label": "1.8V Voltage",
+							"value": 1.815,
+							"min": 1.815,
+							"max": 1.815,
+							"avg": 1.815
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "5",
+							"label": "1.0V VOUT Voltage",
+							"value": 1.005,
+							"min": 0.975,
+							"max": 1.02,
+							"avg": 1.00734937
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "6",
+							"label": "VIN Voltage",
+							"value": 5.11,
+							"min": 4.34,
+							"max": 5.11,
+							"avg": 4.93289137
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "7",
+							"label": "Total Power",
+							"value": 0.5,
+							"min": 0.5,
+							"max": 2.25,
+							"avg": 0.602409661
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "8",
+							"label": "PMIC High Temperature",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						}
+					]
+				},
+				{
+					"hardwaretype": "Misc",
+					"title": "DDR5 DIMM [#2] (BANK 0/Controller1-ChannelA-DIMM0)",
+					"id": "misc/ddr5dimm[#2](bank0/controller1-channela-dimm0)",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "0",
+							"label": "SPD Hub Temperature",
+							"value": 24.25,
+							"min": 24.25,
+							"max": 25.0,
+							"avg": 24.4487953
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "1",
+							"label": "VDD (SWA) Voltage",
+							"value": 1.41,
+							"min": 1.245,
+							"max": 1.41,
+							"avg": 1.40403616
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "2",
+							"label": "VDDQ (SWB) Voltage",
+							"value": 1.41,
+							"min": 1.41,
+							"max": 1.425,
+							"avg": 1.41415668
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "3",
+							"label": "VPP (SWC) Voltage",
+							"value": 1.815,
+							"min": 1.71,
+							"max": 1.815,
+							"avg": 1.81246984
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "4",
+							"label": "1.8V Voltage",
+							"value": 1.815,
+							"min": 1.8,
+							"max": 1.815,
+							"avg": 1.81445777
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "5",
+							"label": "1.0V VOUT Voltage",
+							"value": 1.005,
+							"min": 0.99,
+							"max": 1.035,
+							"avg": 1.00807226
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "6",
+							"label": "VIN Voltage",
+							"value": 4.62,
+							"min": 4.41,
+							"max": 5.11,
+							"avg": 4.96493959
+						},
+						{
+							"sensortype": "Power",
+							"unit": "W",
+							"id": "7",
+							"label": "Total Power",
+							"value": 0.625,
+							"min": 0.5,
+							"max": 1.625,
+							"avg": 0.6385542
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "Yes/No",
+							"id": "8",
+							"label": "PMIC High Temperature",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						}
+					]
+				},
+				{
+					"hardwaretype": "Misc",
+					"title": "Aquaero",
+					"id": "misc/aquaero",
+					"sensors": [
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "0",
+							"label": "Intake Temp",
+							"value": 30.06,
+							"min": 29.77,
+							"max": 30.35,
+							"avg": 30.1359043
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "1",
+							"label": "Exhaust Temp",
+							"value": 19.59,
+							"min": 19.25,
+							"max": 19.59,
+							"avg": 19.4718075
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "2",
+							"label": "Case Temp",
+							"value": 19.04,
+							"min": 18.79,
+							"max": 19.04,
+							"avg": 18.9495182
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "3",
+							"label": "Water Temp",
+							"value": 18.3,
+							"min": 17.51,
+							"max": 18.3,
+							"avg": 17.9962654
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "4",
+							"label": "Ambient Temp",
+							"value": 17.57,
+							"min": 17.06,
+							"max": 17.57,
+							"avg": 17.3089161
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "5",
+							"label": "Water/Air Delta",
+							"value": 0.73,
+							"min": 0.17,
+							"max": 1.16,
+							"avg": 0.6873494
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "6",
+							"label": "Average Case Temp",
+							"value": 19.31,
+							"min": 19.02,
+							"max": 19.31,
+							"avg": 19.20783
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "7",
+							"label": "Fan Amplifier Temp1",
+							"value": 23.74,
+							"min": 22.32,
+							"max": 23.82,
+							"avg": 23.1254215
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "8",
+							"label": "Fan Amplifier Temp2",
+							"value": 23.74,
+							"min": 22.32,
+							"max": 23.82,
+							"avg": 23.1254215
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "9",
+							"label": "Fan Amplifier Temp3",
+							"value": 21.39,
+							"min": 20.28,
+							"max": 21.4,
+							"avg": 20.9359035
+						},
+						{
+							"sensortype": "Temperature",
+							"unit": "°C",
+							"id": "10",
+							"label": "Fan Amplifier Temp4",
+							"value": 21.39,
+							"min": 20.28,
+							"max": 21.4,
+							"avg": 20.9359035
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "11",
+							"label": "Fan1 Voltage",
+							"value": 11.95,
+							"min": 11.9,
+							"max": 11.97,
+							"avg": 11.932169
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "12",
+							"label": "Fan2 Voltage",
+							"value": 5.96,
+							"min": 5.96,
+							"max": 5.97,
+							"avg": 5.960241
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "13",
+							"label": "Fan3 Voltage",
+							"value": 4.81,
+							"min": 4.8,
+							"max": 4.81,
+							"avg": 4.809518
+						},
+						{
+							"sensortype": "Voltage",
+							"unit": "V",
+							"id": "14",
+							"label": "Fan4 Voltage",
+							"value": 11.94,
+							"min": 11.89,
+							"max": 11.98,
+							"avg": 11.9339762
+						},
+						{
+							"sensortype": "Fan",
+							"unit": "RPM",
+							"id": "15",
+							"label": "D5 Pump",
+							"value": 1962.0,
+							"min": 1954.0,
+							"max": 1973.0,
+							"avg": 1960.84338
+						},
+						{
+							"sensortype": "Fan",
+							"unit": "RPM",
+							"id": "16",
+							"label": "Radiator Fans",
+							"value": 541.0,
+							"min": 530.0,
+							"max": 541.0,
+							"avg": 534.506042
+						},
+						{
+							"sensortype": "Fan",
+							"unit": "RPM",
+							"id": "17",
+							"label": "Exhaust Fan",
+							"value": 555.0,
+							"min": 555.0,
+							"max": 555.0,
+							"avg": 555.0
+						},
+						{
+							"sensortype": "Current",
+							"unit": "A",
+							"id": "18",
+							"label": "Fan2 Current",
+							"value": 0.59,
+							"min": 0.576,
+							"max": 0.595,
+							"avg": 0.5852771
+						},
+						{
+							"sensortype": "Misc",
+							"unit": "",
+							"id": "19",
+							"label": "Alarm Level",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						}
+					]
+				},
+				{
+					"hardwaretype": "Misc",
+					"title": "Windows Hardware Errors (WHEA)",
+					"id": "misc/windowshardwareerrors(whea)",
+					"sensors": [
+						{
+							"sensortype": "Misc",
+							"unit": "",
+							"id": "0",
+							"label": "Total Errors",
+							"value": 0.0,
+							"min": 0.0,
+							"max": 0.0,
+							"avg": 0.0
+						}
+					]
+				}
+			]
+		},
+		"aida64": {
+			"timestamp": "2023-05-03T11:50:48.0129765Z",
+			"source": "Aida64",
+			"includedhardwaretypes": [],
+			"includedsensortypes": {},
+			"data": []
+		}
+	}
+}
