@@ -2,6 +2,7 @@
 	import Thermals from './components/Thermals.svelte'
 	import Loads from './components/Loads.svelte'
 	import Fans from './components/Fans.svelte'
+	import Clocks from './components/Clocks.svelte'
 </script>
 
 <main>
@@ -24,6 +25,7 @@
 	</div>
 	<div class="block">
 		<h2>clocks</h2>
+		<!-- <Clocks/> -->
 	</div>
 	<div class="block">
 		<h2>power</h2>
