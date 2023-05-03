@@ -1,4 +1,5 @@
 <script>
+  import { Link } from "svelte-navigator";
   import { Radar } from 'svelte-chartjs';
 
   import {
@@ -27,41 +28,17 @@
   };
 
 
-  // const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
-  // const incr = () => (temp[0] = random(30,60) )
+  const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+  const incr = () => (data.datasets[0].data[0]=random(100,6000),data.datasets[0].data[1]=random(100,6000),data.datasets[0].data[2]=random(100,6000),data.datasets[0].data[3]=random(100,6000),data.datasets[0].data[4]=random(100,6000),data.datasets[0].data[5]=random(100,6000),data.datasets[0].data[6]=random(100,6000),data.datasets[0].data[7]=random(100,6000),chartRef.update() )
 
 
-  // $: {
-  //   clearInterval(clear)
-  //   clear = setInterval(incr, ms)
-  // }
+  $: {
+    clearInterval(clear)
+    clear = setInterval(incr, ms)
+  }
 
 </script>
-
-<!-- <div class="label">
-  <span>cpu</span>
-  <span>{temp[0]}&#xb0;</span>
-</div>
-
-<div class="label">
-  <span>gpu</span>
-  <span>{temp[0]}&#xb0;</span>
-</div>
-
-<div class="label">
-  <span>ambient</span>
-  <span>{temp[0]}&#xb0;</span>
-</div>
-
-<div class="label">
-  <span>water</span>
-  <span>{temp[0]}&#xb0;</span>
-</div>
-<div class="label">
-  <span>delta </span>
-  <span>{temp[0]}&#xb0;</span>
-</div> -->
-
+<Link to="../">[X]</Link>
 <div class="chart-container">
   <Radar 
     bind:chart={chartRef} 
@@ -74,7 +51,7 @@
           ticks: {
             textStrokeColor: 'rgb(54, 162, 235)',
             color: 'rgba(240, 240, 240, 0.5)',
-            backdropColor: 'black'
+            backdropColor: 'rgba(0,0,0,0)'
           },
           grid: {
             color: "lightgreen",
@@ -92,24 +69,10 @@
 
 
 <style>
-  .label {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
-    padding: 4px 0;
-    text-align: left;
-    font-size: 1.5em;
-    width: 150px;
-  }
-
-  .label>span:nth-child(2){
-    text-align: right;
-  } 
-
   .chart-container {
     margin: 0 0 10px;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
   }
 
 </style>
