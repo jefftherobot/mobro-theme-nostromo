@@ -26,7 +26,7 @@
 
 
   const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
-  const incr = () => (temp[0] = random(30,60),chartRef.update() )
+  const incr = () => (temp[0] = random(30,60) )
 
 
   $: {
@@ -69,7 +69,7 @@
     padding: 4px 0;
     text-align: left;
     font-size: 1.5em;
-    width: 125px;
+    width: 150px;
   }
 
   .label>span:nth-child(2){
