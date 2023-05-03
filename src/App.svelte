@@ -1,6 +1,8 @@
 <script>
-	import CPU from './components/CPU.svelte'
-	import GPU from './components/GPU.svelte'
+	import CpuLoad from './components/CpuLoad.svelte'
+	import GpuLoad from './components/GpuLoad.svelte'
+	import Thermals from './components/Thermals.svelte'
+	import Loads from './components/Loads.svelte'
 </script>
 
 <main>
@@ -11,11 +13,13 @@
 		
 	<div class="block loads-block">
 		<h2>loads</h2>
-		<CPU/>
-		<GPU/>
+		<!-- <CpuLoad/>
+		<GpuLoad/> -->
+		<Loads/>
 	</div>
 	<div class="block">
 		<h2>thermals</h2>
+		<!-- <Thermals/> -->
 	</div>
 	<div class="block">
 		<h2>fans</h2>
@@ -40,6 +44,7 @@
 		display: grid;
   	grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: auto repeat(2, 1fr);
+		grid-gap: 10px;
 		text-align: center;
 		padding: 0;
 		margin: 0 auto;

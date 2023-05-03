@@ -67,6 +67,7 @@
     bind:chart={chartRef} 
     {data}
     options={{
+      base: 100,
       backgroundColor:"yellow", 
       indexAxis: 'y',
       scales: { 
@@ -74,6 +75,7 @@
         x:{ display:false}
       },
       responsive: true,
+      
       maintainAspectRatio: false }} />
 </div>
 
