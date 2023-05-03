@@ -49,8 +49,6 @@
 <style>
 
 	main {
-	
-		text-align: center;
 		padding: 0;
 		margin: 0 auto;
 		height: 100%;
@@ -77,6 +75,7 @@
 	header{
 		margin: 0 0 10px;
 		grid-column: span 3;
+		text-align: center;
 	}
 
 	.block{
