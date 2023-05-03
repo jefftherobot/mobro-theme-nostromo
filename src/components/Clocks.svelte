@@ -1,5 +1,5 @@
 <script>
-  import { Link } from "svelte-navigator";
+  import { Router, Link, Route } from "svelte-navigator";
   import { Radar } from 'svelte-chartjs';
 
   import {

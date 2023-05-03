@@ -6,7 +6,7 @@
 	import Clocks from './components/Clocks.svelte'
 </script>
 
-<Router>
+<Router primary={false}>
 	<header>
 
 		<h1>Personal Terminal</h1>
@@ -15,7 +15,7 @@
 	</header>
 	<main>
 		<Route path="clocks" component={Clocks} />
-		<Route path="/">
+		<Route>
 			<div class="grid">
 				<div class="block loads-block">
 					<h2>loads</h2>
