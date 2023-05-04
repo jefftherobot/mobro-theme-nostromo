@@ -48,6 +48,12 @@
 </Router>
 
 <style>
+	header{
+		margin: 0;
+		grid-column: span 3;
+		text-align: center;
+	}
+
 
 	main {
 		padding: 0;
@@ -71,21 +77,14 @@
 		background: yellow;
 	}
 
-	header{
-		margin: 0;
-		grid-column: span 3;
-		text-align: center;
-	}
-
 	h2 {
-		margin: 0 0 5px;
+		margin: 5px 0 0;
 		font-size: 1.1em;
 		font-weight: bold;
 		border: 1px solid yellow;
 		width: auto;
 		display: inline-block;
 		padding: 2px 4px;
-		margin: 0 0 3px;
 	}
 
 	.col{
