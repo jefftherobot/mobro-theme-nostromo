@@ -71,7 +71,9 @@
     responsive: true,
     maintainAspectRatio: false }} />
 </div>
-
+<div>
+  <span>cpu max&nbsp;{data.datasets[0].data[1]}mhz <span style="color:green">gpu max&nbsp;{data.datasets[0].data[0]}mhz</span> </span>
+</div>
 
 <style>
   .label {
