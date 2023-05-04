@@ -78,7 +78,7 @@
 	}
 
 	h2 {
-		margin: 5px 0 0;
+		margin: 3px 0 2px;
 		font-size: 1.1em;
 		font-weight: bold;
 		border: 1px solid yellow;
