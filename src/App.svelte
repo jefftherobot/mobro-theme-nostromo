@@ -25,7 +25,7 @@
 					<h2>loads</h2>
 					<Loads/>
 					<Power/>
-					<h2>ram</h2>
+					<h2>memory</h2>
 					<Memory/>
 				</div>
 				<div class="col">

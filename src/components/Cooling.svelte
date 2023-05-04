@@ -31,5 +31,5 @@
 
 
 <BarGraph bind:this={cpuGraph} {data} {max} label="pump" unit=" rpm" />
-<BarGraph bind:this={cpuGraph} {data} {max} label="rad" unit=" rpm" />
+<BarGraph bind:this={cpuGraph} {data} {max} label="radiator" unit=" rpm" />
 <BarGraph bind:this={cpuGraph} {data} {max} label="exhaust" unit=" rpm" />

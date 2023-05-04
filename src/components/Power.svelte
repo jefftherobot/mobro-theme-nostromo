@@ -57,7 +57,7 @@
 </script>
 
 <div class="label">
-  <span>cpu&nbsp;{val}w gpu&nbsp;{val2}w</span>
+  <span>cpu&nbsp;{val}w <span style="color:green">gpu&nbsp;{val2}w</span></span>
   <span>Power</span>
 </div>
 <hr/>
@@ -109,7 +109,7 @@
 
 
 <style>
-    .label {
+  .label {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 4px 0;
