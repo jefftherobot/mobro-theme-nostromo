@@ -6,6 +6,7 @@
 	import ClocksExpanded from './components/ClocksExpanded.svelte'
 	import Power from './components/Power.svelte'
 	import Clocks from './components/Clocks.svelte'
+	import Memory from './components/Memory.svelte'
 </script>
 
 <Router primary={false}>
@@ -24,6 +25,7 @@
 					<Loads/>
 					<Power/>
 					<h2>ram</h2>
+					<Memory/>
 				</div>
 				<div class="col">
 					<h2>thermals</h2>
@@ -35,7 +37,7 @@
 					<Cooling/>
 					<Link to="clocks"><h2>clocks</h2>
 						<Clocks/>
-						</Link>
+					</Link>
 				</div>
 			</div>
 		</Route>
