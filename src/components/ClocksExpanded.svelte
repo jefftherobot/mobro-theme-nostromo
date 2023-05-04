@@ -1,13 +1,19 @@
 <script>
-  import { Bar } from 'svelte-chartjs';
-  import { Chart, BarElement, CategoryScale, LinearScale } from 'chart.js';
+  import { Router, Link, Route } from "svelte-navigator";
+  import { Radar } from 'svelte-chartjs';
 
-  Chart.register(BarElement,CategoryScale,LinearScale);
+  import {
+    Chart as ChartJS,
+    PointElement,
+    RadialLinearScale,
+    LineElement,
+  } from 'chart.js';
 
-  
+  ChartJS.register(PointElement,RadialLinearScale,LineElement );
+
   let clear
   let chartRef
-  let ms = 1000
+  let ms = 2000
   let clocks = [100, 255, 2300, 333, 5700, 4000, 1220, 900 ]
 
   let data = {
@@ -32,26 +38,41 @@
   }
 
 </script>
+<Link to="../">[X]</Link>
 <div class="chart-container">
-  <Bar 
-  bind:chart={chartRef} 
-  {data}
-  options={{
-    backgroundColor:"yellow", 
-    scales: { 
-      y:{ display:false},
-      x:{ display:false }
-    },
-    responsive: true,
-    maintainAspectRatio: false }} />
+  <Radar 
+    bind:chart={chartRef} 
+    {data}
+    options={{
+       scales: { 
+        r: {
+          suggestedMin: 0,
+          suggestedMax: 6000,
+          ticks: {
+            textStrokeColor: 'rgb(54, 162, 235)',
+            color: 'rgba(240, 240, 240, 0.5)',
+            backdropColor: 'rgba(0,0,0,0)'
+          },
+          grid: {
+            color: "lightgreen",
+          },
+        }
+      },
+      elements: {
+        line: {
+          borderWidth: 1
+        }
+      },
+      responsive: true,
+      maintainAspectRatio: false }} />
 </div>
 
 
 <style>
   .chart-container {
     margin: 0 0 10px;
-    width: 300px;
-    height: 120px;
+    width: 400px;
+    height: 400px;
   }
 
 </style>

@@ -27,5 +27,6 @@ hr{
 }
 h2 {
 	margin: 0 0 5px;
-	font-size: 1.1em
+	font-size: 1.1em;
+	font-weight: bold;
 }

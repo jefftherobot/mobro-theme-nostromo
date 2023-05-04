@@ -2,7 +2,9 @@
 	import { Router, Route, Link } from "svelte-navigator";
 	import Thermals from './components/Thermals.svelte'
 	import Loads from './components/Loads.svelte'
-	import Fans from './components/Fans.svelte'
+	import Cooling from './components/Cooling.svelte'
+	import ClocksExpanded from './components/ClocksExpanded.svelte'
+	import Power from './components/Power.svelte'
 	import Clocks from './components/Clocks.svelte'
 </script>
 
@@ -14,31 +16,26 @@
 
 	</header>
 	<main>
-		<Route path="clocks" component={Clocks} />
+		<Route path="clocks" component={ClocksExpanded} />
 		<Route>
 			<div class="grid">
-				<div class="block loads-block">
+				<div class="col">
 					<h2>loads</h2>
 					<Loads/>
+					<Power/>
+					<h2>ram</h2>
 				</div>
-				<div class="block">
+				<div class="col">
 					<h2>thermals</h2>
 					<Thermals/>
+					<h2>voltages</h2>
 				</div>
-				<div class="block">
-					<h2>fans</h2>
-					<Fans/>
-				</div>
-				<div class="block">
+				<div class="col">
+					<h2>cooling</h2>
+					<Cooling/>
 					<Link to="clocks"><h2>clocks</h2>
-					<!-- <Clocks/> -->
-					</Link>
-				</div>
-				<div class="block">
-					<h2>power</h2>
-				</div>
-				<div class="block">
-					<h2>ram</h2>
+						<Clocks/>
+						</Link>
 				</div>
 			</div>
 		</Route>
@@ -51,15 +48,13 @@
 	main {
 		padding: 0;
 		margin: 0 auto;
-		height: 100%;
-		width:100% ;
+		
 	}
 
 	.grid {
 		display: grid;
   	grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: auto repeat(2, 1fr);
-		grid-gap: 20px;
+		grid-gap: 10px;
 	}
 
 	h1 {
@@ -78,7 +73,7 @@
 		text-align: center;
 	}
 
-	.block{
+	.col{
 		/* border: 1px solid yellow */
 	}
 </style>

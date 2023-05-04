@@ -18,7 +18,7 @@
 
   let cpuGraph;
   const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
-  const incr = () => (data.datasets[0].data[0] = random(1,100),cpuGraph.update() )
+  const incr = () => (data.datasets[0].data[0] = random(20,40),cpuGraph.update() )
 
 
   $: {
