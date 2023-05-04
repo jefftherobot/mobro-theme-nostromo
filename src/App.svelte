@@ -7,6 +7,7 @@
 	import Power from './components/Power.svelte'
 	import Clocks from './components/Clocks.svelte'
 	import Memory from './components/Memory.svelte'
+	import Voltages from './components/Voltages.svelte'
 </script>
 
 <Router primary={false}>
@@ -30,7 +31,8 @@
 				<div class="col">
 					<h2>thermals</h2>
 					<Thermals/>
-					<h2>voltages</h2>
+					<!-- <h2>voltages</h2>
+					<Voltages/> -->
 				</div>
 				<div class="col">
 					<h2>cooling</h2>
