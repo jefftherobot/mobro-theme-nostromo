@@ -58,7 +58,7 @@
 	.grid {
 		display: grid;
   	grid-template-columns: repeat(3, 1fr);
-		grid-gap: 10px;
+		grid-gap: 0px;
 	}
 
 	h1 {
@@ -72,12 +72,29 @@
 	}
 
 	header{
-		margin: 0 0 10px;
+		margin: 0;
 		grid-column: span 3;
 		text-align: center;
 	}
 
+	h2 {
+		margin: 0 0 5px;
+		font-size: 1.1em;
+		font-weight: bold;
+		border: 1px solid yellow;
+		width: auto;
+		display: inline-block;
+		padding: 2px 4px;
+		margin: 0 0 3px;
+	}
+
 	.col{
-		/* border: 1px solid yellow */
+		padding: 5px;
+		border: 1px solid yellow;
+	}
+
+	.col:nth-child(2){
+		border-left: 0;
+		border-right: 0;
 	}
 </style>

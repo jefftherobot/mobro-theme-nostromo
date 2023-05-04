@@ -25,8 +25,7 @@ hr{
 	height: 2px;
 	background: yellow;
 }
-h2 {
-	margin: 0 0 5px;
-	font-size: 1.1em;
-	font-weight: bold;
+
+* {
+  box-sizing: border-box;
 }

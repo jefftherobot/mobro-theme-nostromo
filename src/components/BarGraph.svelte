@@ -52,7 +52,7 @@
   } 
 
   .chart-container {
-    margin: 0 0 10px;
+    margin: 0 0 5px;
     width: 100%;
     height: 20px;
   }
